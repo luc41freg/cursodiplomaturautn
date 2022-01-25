@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <style >
+        .boton{
+            padding: 40px 20px;
+        }
+    </style>
+</head>
+<body>
+   <p>
+    <button style="background:brown"  class = "boton cambiarColor">cuadrado 1</button>
+    <button style="background:chartreuse" class = "boton cambiarColor1">cuadrado 2</button>
+    <button style ="background:coral" class = "boton cambiarColor2">cuadrado 3</button>
+</p>
+    <script>
+        
+        
+        var cambiarColor = document.getElementsByClassName('cambiarColor')[0];
+        cambiarColor.addEventListener('click', function(f){
+            document.body.style.backgroundColor = "red";
+
+        });
+
+        var cambiarColor1 = document.getElementsByClassName('cambiarColor1')[0];
+        cambiarColor1.addEventListener('click', function(f){
+            document.body.style.backgroundColor = "blue";
+
+        });
+
+        var cambiarColor2 = document.getElementsByClassName('cambiarColor2')[0];
+        cambiarColor2.addEventListener('click', function(f){
+            document.body.style.backgroundColor = "green";
+
+        });
+
+
+    </script>
+
+</body>
+</html>
