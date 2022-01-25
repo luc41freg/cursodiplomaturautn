@@ -1,0 +1,107 @@
+.contenedor{
+    background-color: white;
+    border: 1px solid black;
+    
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    
+}
+.contenedor2{
+    background-color: white;
+    border: 1px solid black;
+    height:400px;
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+}
+.contenedor3{
+    background-color: white;
+    border: 1px solid black;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.rojo{
+    
+    
+    
+    
+    background-color: red;
+    width: 33.32%;
+    height: 33.32%;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
+    color: white;
+}
+.azul{
+    
+    
+    
+    background-color: blue;
+    width: 33.32%;
+    height: 33.32%;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
+    color: white;
+    
+}
+.verde{
+    
+    
+    
+    background-color: green;
+    width: 33.32%;
+    height:33.32%;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
+    color: white;
+    
+}
+
+.rojo2{
+    
+    
+    
+    
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
+    color: white;
+}
+.azul2{
+    
+    
+    
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
+    color: white;
+    
+}
+.verde2{
+    
+    
+    
+    background-color: green;
+    width: 100px;
+    height:100px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
+    color: white;
+    
+}
+
